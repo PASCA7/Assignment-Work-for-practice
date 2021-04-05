@@ -25,4 +25,7 @@ T = int(input(""))
 for t in range(T):    
     N , K  = map(int,input().split())
     print(cyclic_shift(N,K))
+    
+    
+ # https://www.hackerearth.com/practice/codemonk/
 
