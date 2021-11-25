@@ -6,11 +6,11 @@ def maxBeauty (N, A):
         while(j<len(A)):
             if j>len(A):
                 break
-                asd = []
-                for k in range(j,i+1):
-                    asd.append(A[k])
-                    j+=1
-                    arr.append(asd)
+             asd = []
+             for k in range(j,i+1):
+                 asd.append(A[k])
+             j+=1
+             arr.append(asd)
     arr=[x for x in arr if x!= []]
     res=[]
     for i in arr:
@@ -19,7 +19,7 @@ def maxBeauty (N, A):
             d=i[j]+d
         res.append(d*max(i))
     print(max(res))
-
+    
 T = int(input())
 for _ in range(T):
     N = int(input())
